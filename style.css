@@ -1,0 +1,19 @@
+a {
+    background-color: yellow;
+}
+p {color: blue;}
+.yellow {color: yellow;}
+.red {color: red;}
+.green {color: green;}
+
+#main {background-color: brown;}
+.box-model{
+    padding: 50px;
+    padding-right: 10px;
+    border-style: solid;
+    margin: 10px 20px 30px 40px;
+}
+
+.box-model-1 {
+    padding: 50px;
+}
