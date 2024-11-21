@@ -1,19 +1,156 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header */
+header {
+    background-color: #2e8c50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+main p, main ul, main ol {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2b8c89;
+}
+
+/* Styles for images */
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #768c8d;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #2b90b9;
+    color: white;
+}
+
+/* Styles for lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* Styles for links */
 a {
-    background-color: yellow;
-}
-p {color: blue;}
-.yellow {color: yellow;}
-.red {color: red;}
-.green {color: green;}
-
-#main {background-color: brown;}
-.box-model{
-    padding: 50px;
-    padding-right: 10px;
-    border-style: solid;
-    margin: 10px 20px 30px 40px;
+    color: #2b90b9;
+    text-decoration: none;
 }
 
-.box-model-1 {
-    padding: 50px;
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #2e8c50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Styles for form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    height: 150px;
+}
+
+.form-kontakty {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
